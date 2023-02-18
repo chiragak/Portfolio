@@ -13,7 +13,7 @@
 			}
             
 .github-icon {
-	fill: #fbe094;
+	fill: #04C4C4;
 	color: #251e1e;
 	position: absolute;
 	top: 0;
@@ -45,7 +45,7 @@
 	margin-left: 5%;
 }
 .logo-title:hover{
-	color: aqua;
+	color: #04C4C4;
 }
 .navbar
 {
@@ -64,7 +64,11 @@
 .menu
 {
 	display: flex;
-	margin-left:37%;
+	margin-left:30%;
+}
+.menu h1 a[href*="#"]::before {
+  content: "#";
+  color:#04C4C4;
 }
 .navbar .menu h1
 {
@@ -73,7 +77,7 @@
 	white-space: nowrap;
 }
 .navbar .menu h1 a{
-	color: #fff;
+	color: #ABB2BF;
 	text-decoration: none;
 }
 
@@ -148,6 +152,20 @@
 	bottom: 0;
 }
 
+.introduction
+{
+	margin-left:11%;
+	margin-top: 18%;;
+	
+}
+.introduction h1 {
+  color: white;
+  font-size:50px;
+}
+
+.introduction h1 span {
+  color: #04C4C4;
+}
         </style>
 	</head>
 	<body >
@@ -165,10 +183,10 @@
 			<div class="navbar">
 				<h1 class="logo-title">Chirag</h1>
 				<div class="menu">
-					<h1><a href="#home">Home</a></h1>
-					<h1><a href="#works">Works</a></h1>
-					<h1><a href="#about-me">About-me</a></h1>
-					<h1><a href="#contacts">Contacts</a></h1>
+					<h1><a href="#home">home</a></h1>
+					<h1><a href="#works">works</a></h1>
+					<h1><a href="#about-me">about-me</a></h1>
+					<h1><a href="#contacts">contacts</a></h1>
 				</div>
 
 			</div>
@@ -183,6 +201,12 @@
 				<div class="right-line"></div>
 			</div>
                 
+
+			<div class="introduction">
+				<h1>
+					Hi,<br>I'm Chirag,<br><span>Full-stack developer</span>
+				</h1>
+			</div>
 
 			
 
