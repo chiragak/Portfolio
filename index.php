@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 	<head>
 		<title>Chirag</title>
-		<!-- <style>
+		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 			body{
 				background-color: #04131F;
@@ -168,7 +168,7 @@
 
 
 
-        </style> -->
+        </style>
 	</head>
 	<body >
 			<header class="codrops-header">
@@ -207,9 +207,6 @@
 
             
 
-			<footer>
-
-
-			</footer>
+			
 	</body>
 </html>
