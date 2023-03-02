@@ -8,10 +8,19 @@
 			
 			
 			<?php
-			include('includes\navbar.php')	;	
-			include('includes\page-design.php')	;	
+			include('includes\navbar.php')	;		
+            include('includes\page-design.php')	;
 			?>
 			
+			
+                
+
+		
+
+			
+
+            
+
 			
 	</body>
 </html>
