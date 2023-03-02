@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
 	<head>
 		<title>Chirag</title>
-		<style>
+		<!-- <style>
 			@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 			body{
 				background-color: #04131F;
@@ -57,7 +57,7 @@
   z-index:-1;
   display: flex;
   color: #fff;
-  /* background-color: red; */
+
 
 
 }
@@ -99,7 +99,7 @@
 	top: 0;
 	margin-left: 20px;
 	min-height: 350px;
-	/* background-color: red; */
+	
 }
 
 .left-line {
@@ -108,7 +108,6 @@
 	width: 2px;
 	height: 200px;
 	background-color: #ABB2BF;
-	/* margin-left: 20px; */
 	margin-bottom: 5px;
 }
 
@@ -165,7 +164,11 @@
 .introduction h1 span {
   color: #04C4C4;
 }
-        </style>
+
+
+
+
+        </style> -->
 	</head>
 	<body >
 			<header class="codrops-header">
@@ -178,22 +181,15 @@
 				</a>
 			</header>
 			
-
-			<div class="navbar">
-				<h1 class="logo-title">Chirag..</h1>
-				<div class="menu">
-					<h1><a href="#home">home</a></h1>
-					<h1><a href="#works">works</a></h1>
-					<h1><a href="#about-me">about-me</a></h1>
-					<h1><a href="#contacts">contacts</a></h1>
-				</div>
-
-			</div>
+			<?php
+			include('includes\navbar.php')	;		
+			?>
+			
 			<div class="left-sidebar">
 				<div class="left-line"></div>
-				<a href="https://linkedin.com/in/chiragak"><img src="/images/linkedin.png" alt="linkedin" width="35px"></a>
-				<a href="https://twitter.com/chirag_a_k"><img src="/images/Twitter.png" alt="Twitter" width="35px"></a>
-				<a href="https://www.instagram.com/_chiragak/"><img src="/images/Instagram.png" alt="Instagram" width="35px"></a>
+				<a href="https://linkedin.com/in/chiragak"><img src="images\linkedin.png" alt="linkedin" width="35px"></a>
+				<a href="https://twitter.com/chirag_a_k"><img src="images/Twitter.png" alt="Twitter" width="35px"></a>
+				<a href="https://www.instagram.com/_chiragak/"><img src="images/Instagram.png" alt="Instagram" width="35px"></a>
 			</div>
 			<div class="right-sidebar">
 				<a href="mailto:chiragajekar@gmail.com"><h2 class="email">chiragajekar@gmail.com</h2></a>
