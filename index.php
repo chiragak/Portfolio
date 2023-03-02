@@ -3,6 +3,9 @@
 	<head>
 		<title>Chirag</title>
 		<link href="includes/style.css" rel="stylesheet">
+	<script>
+		
+	</script>
 	</head>
 	<body >
 			
@@ -13,5 +16,10 @@
 			?>
 			
 			
+			<div class="introduction">
+				<h1>
+					Hi,<br>I'm Chirag,<br><span>Full-stack developer</span>
+				</h1>
+			</div>
 	</body>
 </html>

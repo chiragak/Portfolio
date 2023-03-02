@@ -61,7 +61,7 @@
 	display: flex;
 	margin-left:30%;
 }
-.menu h1 a[href*="#"]::before {
+.menu h1 a::before {
   content: "#";
   color:#04C4C4;
 }
@@ -148,7 +148,7 @@
 .introduction
 {
 	margin-left:11%;
-	margin-top: 18%;;
+	margin-top: 18%;
 	
 }
 .introduction h1 {
@@ -160,6 +160,3 @@
   color: #04C4C4;
 }
 
-.menu a.active {
-    color: red;
-}
