@@ -14,6 +14,7 @@
 	top: 0;
 	border: 0;
 	right: 0;
+
 }
 
 .github-corner:hover .octo-arm {
@@ -37,22 +38,23 @@
 
 .logo-title{
 	font-family: 'Kaushan Script', cursive;
-	margin-left: 5%;
+	margin-left: 11%;
+
 }
 .logo-title:hover{
 	color: #04C4C4;
 }
 .navbar
 {
-	position: fixed;
+	position: sticky;
   top: 0;
-  margin-left:6%;
+  /* margin-left:6%; */
   width:100%;
   height:75px;
-  z-index:-1;
   display: flex;
   color: #fff;
-
+  background-color: #04131F;
+  
 
 
 }
@@ -145,10 +147,19 @@
 	bottom: 0;
 }
 
-.introduction
+/* .introduction
 {
 	margin-left:11%;
 	margin-top: 18%;
+	
+} */
+.introduction
+{
+	display: flex;
+	position:absolute;
+	margin-left:11%;
+	margin-top: 15%;
+	
 	
 }
 .introduction h1 {
