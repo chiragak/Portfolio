@@ -27,8 +27,9 @@
 
 		
 		.projects {
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 78%;
+  height:auto;
   display:flex;
   align-items:center;
   margin-left:12%;
@@ -37,31 +38,84 @@
 
 }
 
-.line {
-  display:flex;
-  width:500px;
-  height:2px;
-  background-color:#04C4C4;;
-  position:relative;
-  margin-left:6px;
-  margin-top:5px;
-  margin-right:500px;
 
-
-
+.flex-container {
+  padding: 0;
+  margin: 0;
+  width:100%;
+  right:0;
+  list-style: none;
+  /* border: 1px solid silver; */
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content:space-evenly
+  
 }
 
-.project-box
+.flex-item {
+  /* background: tomato; */
+  /* position:relative; */
+  width: 300px;
+  height: 430px;
+  margin-top:40px;
+  border-radius:7%;
+  border: 1px solid #04C4C4;
+  /* margin-right:53px */
+  
+  /* line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center; */
+}
+
+
+.description
 {
-	height:460px;
-	width:360px;
+	/* background-color:red; */
+	/* margin-left:10%; */
+	margin-top:8%;
+	/* margin-right:10%; */
+	color:rgba(255, 255, 255, 0.5);
+}
+.tech-used {
+  color: #04C4C4;
+  background-color: rgba(4, 196, 196, 0.1);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  border-radius:20%;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+} 
+
+.inner-outline
+{
+	margin-left:10%;
+	margin-top:8%;
+	margin-right:10%;
+	/* justify-content: flex-end; */
+}
+.project-image
+{
 	background-color:red;
-	border-radius:10%;
-	display:flex;
-}	
+	height:160px;
+	width:240px;
+	border-radius:5%;
+	bottom:0;
+ 	
 
-
-
+}
 </style>
 	</head>
 	<body >
@@ -81,11 +135,29 @@
 			</section>
 <section class="works">
 <div class="projects">
-				<h1>projects</h1>
-				<div class="line"></div>
-			<div class="project-box">
-
-			</div>
+<div class="flex-container wrap">
+  <div class="flex-item">
+	<div class="inner-outline">
+	<h1>Waver</h1>
+	<p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+	<p class="tech-used">HTML</p>
+	<p class="tech-used">CSS</p>
+	<p class="tech-used">Javascript</p>	
+	<div class="project-image"></div>
+	</div>
+	
+  </div>
+  <div class="flex-item">
+  <h1>Secure +</h1>
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</ul>
+				
 </div>
 </section>
 			
