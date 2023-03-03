@@ -77,11 +77,11 @@
 
 .description
 {
-	/* background-color:red; */
-	/* margin-left:10%; */
-	margin-top:8%;
-	/* margin-right:10%; */
+
 	color:rgba(255, 255, 255, 0.5);
+	padding:0%;
+	margin-top:0%;
+	margin-bottom:20%;
 }
 .tech-used {
   color: #04C4C4;
@@ -92,6 +92,7 @@
   padding-right: 10px;
   display: inline-block;
   border-radius:20%;
+  margin-top:0%;
 }
 
 .wrap    { 
@@ -104,6 +105,7 @@
 	margin-left:10%;
 	margin-top:8%;
 	margin-right:10%;
+	margin-bottom:0%;
 	/* justify-content: flex-end; */
 }
 .project-image
@@ -143,6 +145,7 @@
 	<p class="tech-used">HTML</p>
 	<p class="tech-used">CSS</p>
 	<p class="tech-used">Javascript</p>	
+	<p class="tech-used">Javascript</p>
 	<div class="project-image"></div>
 	</div>
 	
