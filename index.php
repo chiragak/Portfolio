@@ -110,11 +110,13 @@
 }
 .project-image
 {
-	background-color:red;
+	/* background-color:red; */
 	height:160px;
 	width:240px;
 	border-radius:5%;
 	bottom:0;
+	overflow: hidden;
+	
  	
 
 }
@@ -146,7 +148,7 @@
 	<p class="tech-used">CSS</p>
 	<p class="tech-used">Javascript</p>	
 	<p class="tech-used">Javascript</p>
-	<div class="project-image"></div>
+	<div class="project-image"><img src="images\waver.png" alt="Waver "></div>
 	</div>
 	
   </div>
