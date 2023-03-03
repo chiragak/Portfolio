@@ -15,7 +15,7 @@
          .works 
          {
          /* background-color:blue; */
-         height:600px;
+         height:auto;
          margin-top:0px;
          position:relative;
          z-index:-1;
@@ -28,10 +28,11 @@
          align-items:center;
          margin-left:12%;
          color:white;
+		 margin-bottom:12%;
          }
          .flex-container {
          padding: 0;
-         margin: 0;
+         margin:15% 0px 0px 0px;
          width:100%;
          right:0;
          list-style: none;
@@ -99,6 +100,25 @@
          bottom:0;
          overflow: hidden;
          }
+		.heading 
+		{
+			/* background-color:red; */
+			display:flex;
+  			align-items: center;
+			position:absolute;
+			top:0;
+			font-size: 25px;
+		}
+		.straight-line
+		{
+			background-color:#04C4C4;
+			width:500px;
+			height:2px;
+			margin-left:1%;
+
+			
+			
+		}
       </style>
    </head>
    <body >
@@ -115,6 +135,11 @@
       </section>
       <section class="works">
          <div class="projects">
+			<div class="heading">
+			<h1>project</h1>
+			<div class="straight-line"></div>
+			</div>
+		 
          <div class="flex-container wrap">
             <div class="flex-item">
                <div class="inner-outline">
@@ -127,7 +152,49 @@
                   <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
                </div>
             </div>
+			<div class="flex-item">
+               <div class="inner-outline">
+                  <h1>Waver</h1>
+                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="tech-used">HTML</p>
+                  <p class="tech-used">CSS</p>
+                  <p class="tech-used">Javascript</p>
+                  <p class="tech-used">Javascript</p>
+                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+               </div>
          </div>
+		 <div class="flex-item">
+               <div class="inner-outline">
+                  <h1>Waver</h1>
+                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="tech-used">HTML</p>
+                  <p class="tech-used">CSS</p>
+                  <p class="tech-used">Javascript</p>
+                  <p class="tech-used">Javascript</p>
+                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+               </div>
+         </div>
+		 <div class="flex-item">
+               <div class="inner-outline">
+                  <h1>Waver</h1>
+                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="tech-used">HTML</p>
+                  <p class="tech-used">CSS</p>
+                  <p class="tech-used">Javascript</p>
+                  <p class="tech-used">Javascript</p>
+                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+               </div>
+         </div>
+		 <div class="flex-item">
+               <div class="inner-outline">
+                  <h1>Waver</h1>
+                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="tech-used">HTML</p>
+                  <p class="tech-used">CSS</p>
+                  <p class="tech-used">Javascript</p>
+                  <p class="tech-used">Javascript</p>
+                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+               </div>
       </section>
    </body>
 </html>
