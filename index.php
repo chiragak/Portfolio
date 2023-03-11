@@ -6,7 +6,7 @@
      
       <style>
        
-       .home 
+       #home 
 {
 /* background-color:green; */
 height:600px;
@@ -14,7 +14,7 @@ margin-top:0px;
 position: relative;
 z-index:-1;
 }
-.works 
+#works 
 {
 /* background-color:blue; */
 height:auto;
@@ -124,7 +124,7 @@ overflow: hidden;
    
 }
 
-.about-me{
+#about-me{
 /* background-color:green; */
 height:auto;
 margin-top:0px;
@@ -160,14 +160,14 @@ margin-bottom:12%;
          include('includes\navbar.php')	;	
          include('includes\page-design.php')	;	
          ?>
-      <section class="home">
+      <section id="home">
          <div class="introduction">
             <h1>
                Hi,<br>I'm Chirag,<br><span>Full-stack developer</span>
             </h1>
          </div>
       </section>
-      <section class="works">
+      <section id="works">
          <div class="projects">
 			<div class="heading">
 			<h1>project</h1>
@@ -230,12 +230,8 @@ margin-bottom:12%;
                   <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
                </div>
       </section>
-      <section class="about-me">
-         <div class="about">
-            
-         </div>
-      </section>
-      <section class="about-me">
+
+      <section id="about-me">
         <div class="about">
         <div class="heading">
 			<h1>about-me</h1>
