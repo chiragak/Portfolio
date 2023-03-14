@@ -10,7 +10,7 @@
 .github-icon {
 	fill: #04C4C4;
 	color: #251e1e;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	border: 0;
 	right: 0;
@@ -174,4 +174,25 @@
 
 
 
-
+@media screen and (max-width: 768px) {
+	.menu {
+	  display: none;
+	}
+	.hamburger {
+	  display: block;
+	}
+  }
+  
+  .hamburger {
+	display: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	/* add hamburger icon styling */
+  }
+  
+  .hamburger:hover {
+	/* add hover styling */
+  }
+  
