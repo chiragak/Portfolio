@@ -54,6 +54,7 @@
   display: flex;
   color: #fff;
   background-color: #04131F;
+  /* z-index:10000; */
   
 
 
@@ -181,7 +182,11 @@
 	.hamburger {
 	  display: block;
 	}
-  }
+	.github-icon {
+		display:none;
+	
+	}
+  
   
   .hamburger {
 	display: none;
@@ -195,4 +200,7 @@
   .hamburger:hover {
 	/* add hover styling */
   }
-  
+}
+
+
+
