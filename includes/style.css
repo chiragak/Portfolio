@@ -54,7 +54,7 @@
   display: flex;
   color: #fff;
   background-color: #04131F;
-  z-index:1;
+  /* z-index:1; */
   
 
 
@@ -200,7 +200,16 @@
   .hamburger:hover {
 	/* add hover styling */
   }
+  .introduction
+{
+
+	margin-left :20%;
+	margin-top: 40%;
+	
+	
 }
+
+
 
 
 

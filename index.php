@@ -146,7 +146,7 @@ margin-bottom:12%;
 height:auto;
 margin-top:0px;
 position:relative;
-z-index:-1;
+z-index:0;
 
 }
 .contact {
@@ -180,12 +180,14 @@ position:relative;
 form{
    width:100%;
    margin-top:15%;
+   
 }
 .container {
   width: 80%;
   padding: 0 20px;
   align-items: center;
   /* margin-top:15%; */
+
 }
 
 .container h2 {
@@ -200,6 +202,7 @@ form{
 .container .row100 {
   width: 100%;
   display: grid;
+  
 
 }
 
@@ -209,6 +212,7 @@ form{
   padding: 0 10px;
   margin: 30px 50px 10px;
   transition: 0.5s;
+  
 }
 
 .container .row100 .inputBox {
@@ -216,6 +220,7 @@ form{
   width: 100%;
   height: 40px;
   color: #04C3C3;
+  
 }
 
 .container .row100 .inputBox input,
@@ -243,12 +248,15 @@ form{
   display: block;
   transition: 0.5s;
   pointer-events: none;
+  
+  
 }
 
 .container .row100 .inputBox input:focus + .text,
 .container .row100 .inputBox input:valid + .text {
   top: -35px;
   left: -10px;
+  
 }
 
 .container .row100 .inputBox .line {
@@ -261,11 +269,13 @@ form{
   transition: 0.5s;
   border-radius: 2px;
   pointer-events: none;
+  
 }
 
 .container .row100 .inputBox input:focus ~ .line,
 .container .row100 .inputBox input:valid ~ .line {
   height: 100%;
+  
 }
 
 .container .row100 .inputBox.textarea {
@@ -273,22 +283,26 @@ form{
   width: 100%;
   height: 100px;
   padding: 10px 0;
+  
 }
 
 .container .row100 .inputBox.textarea textarea {
   height: 100%;
   resize: none;
+  
 }
 
 .container .row100 .inputBox textarea:focus + .text,
 .container .row100 .inputBox textarea:valid + .text {
   top: -35px;
   left: -10px;
+  
 }
 
 .container .row100 .inputBox textarea:focus ~ .line,
 .container .row100 .inputBox textarea:valid ~ .line {
   height: 100%;
+  
   
 }
 
@@ -301,6 +315,7 @@ input[type="submit"] {
   color: #000;
   font-size: 18px;
   border-radius: 2px;
+  
 }
 
 
@@ -333,6 +348,7 @@ footer .container {
 } */
 
 footer {
+
   width: 100%;
   height: 250px;
   position: relative;
