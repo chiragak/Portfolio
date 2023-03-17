@@ -146,7 +146,8 @@ margin-bottom:12%;
 height:auto;
 margin-top:0px;
 position:relative;
-z-index:1;
+z-index:-1;
+
 }
 .contact {
 /* background-color: brown; */
@@ -157,6 +158,8 @@ align-items:center;
 margin-left:12%;
 color:white;
 margin-bottom:12%;
+position:relative;
+
 
 }
 
@@ -300,6 +303,60 @@ input[type="submit"] {
   border-radius: 2px;
 }
 
+
+/* ------------------------------------------- */
+/* footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  
+  background-color: red;
+  color: white;
+
+}
+
+footer .container {
+  width: 100%;
+  align-items: center;
+}
+
+
+.foo-straight {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  top:0;
+
+} */
+
+footer {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  /* background-color:red; */
+}
+
+.foo-straight {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+
+footer .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:auto;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-align:center;
+}
 
       </style>
    </head>
@@ -448,7 +505,9 @@ input[type="submit"] {
         </div>
       </section>
       
-
+      <?php
+         include('includes\footer.php')	;	
+         ?>
    </body>
 </html>
 
