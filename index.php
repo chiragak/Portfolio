@@ -180,12 +180,14 @@ position:relative;
 form{
    width:100%;
    margin-top:15%;
+   /* display:flex; */
    
 }
 .container {
   width: 80%;
   padding: 0 20px;
-  align-items: center;
+  /* align-items: center; */
+  display:block;
   /* margin-top:15%; */
 
 }
@@ -374,6 +376,19 @@ footer .container {
   text-align:center;
 }
 
+
+.p-logo{
+  font-family: 'Kaushan Script', cursive;
+  font-size:25px;
+}
+.contact p 
+{
+  
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
       </style>
    </head>
    <body >
@@ -470,8 +485,12 @@ footer .container {
         <div class="contact">
         <div class="heading">
 			<h1>contact</h1>
+    
 			<div class="straight-line"></div>          
         </div>
+        <p>If you'd like to chat about a project or just have a question, Please fill in the form below <br>  I will get back to you within 2 days</p>
+
+        
         <form action="https://formsubmit.co/el/ducebi" method="POST">
         <div class="container">
       <div class="row100">

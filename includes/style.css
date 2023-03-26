@@ -17,6 +17,7 @@
 
 }
 
+
 .github-corner:hover .octo-arm {
 	animation: octocat-wave 560ms ease-in-out;
 }
@@ -117,6 +118,7 @@
 	flex-direction: column;
 	bottom: 0;
 	right:17px;
+	z-index: -1;
 	/* background-color: #04C4C4; */
 }
 .email{
