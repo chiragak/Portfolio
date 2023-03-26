@@ -159,6 +159,7 @@ margin-left:12%;
 color:white;
 margin-bottom:12%;
 position:relative;
+/* z-index:  -1; */
 
 
 }
@@ -179,7 +180,7 @@ position:relative;
 /* ------------------------------------------------------- */
 form{
    width:100%;
-   margin-top:15%;
+   margin-top:28%;
    /* display:flex; */
    
 }
@@ -381,12 +382,27 @@ footer .container {
   font-family: 'Kaushan Script', cursive;
   font-size:25px;
 }
-.contact p 
-{
-  
+.contact-p
+{  font-size:25px;
+  position:absolute;
   width: 100%;
   margin: 0;
   padding: 0;
+  top:0;
+  margin-top:13%;
+}
+
+@media screen and (max-width: 768px){
+  .straight-line
+{
+ 
+   width:225px;
+   height:2px;
+   margin-left:1%;
+
+   
+   
+}
 }
 
       </style>
@@ -488,7 +504,10 @@ footer .container {
     
 			<div class="straight-line"></div>          
         </div>
+        <div class="contact-p">
         <p>If you'd like to chat about a project or just have a question, Please fill in the form below <br>  I will get back to you within 2 days</p>
+        </div>
+        
 
         
         <form action="https://formsubmit.co/el/ducebi" method="POST">
@@ -543,6 +562,7 @@ footer .container {
       <?php
          include('includes\footer.php')	;	
          ?>
+
    </body>
 </html>
 
