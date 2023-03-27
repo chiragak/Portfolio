@@ -14,6 +14,7 @@ margin-top:0px;
 position: relative;
 z-index:-1;
 }
+
 #works 
 {
 /* background-color:blue; */
@@ -391,7 +392,11 @@ footer .container {
   top:0;
   margin-top:13%;
 }
-
+.about-desc h1
+{
+  /* color:red; */
+  text-decoration:underline;
+}
 @media screen and (max-width: 768px){
   .straight-line
 {
@@ -403,6 +408,10 @@ footer .container {
    
    
 }
+.introduction 
+{
+  margin-top:15%;
+}
 }
 
       </style>
@@ -413,10 +422,12 @@ footer .container {
          include('includes\page-design.php')	;	
          ?>
       <section id="home">
+        <div class="intro">
          <div class="introduction">
             <h1>
                Hi,<br>I'm Chirag,<br><span>Full-stack developer</span>
             </h1>
+         </div>
          </div>
       </section>
       <section id="works">
@@ -494,6 +505,7 @@ footer .container {
           Hello there! My name is Chirag, and I am currently pursuing my Bachelor's in Engineering (Information Science) from Sahyadri College of Engineering and Management in Mangaluru.</p>
           <p> I have a strong passion for web development and blockchain technology, and I am always looking to expand my knowledge in these areas. I enjoy taking on new projects and challenges, and I am excited to see where my skills will take me in the future. Thank you for taking the time to read a little about me!
           </p>
+        <h1>Associated clubs</h1>
         </div>
       </section>
 
