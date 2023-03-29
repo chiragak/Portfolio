@@ -393,6 +393,24 @@ footer .container {
   margin-top:13%;
 }
 
+#clubs{
+/* background-color:green; */
+height:auto;
+margin-top:0px;
+position:relative;
+z-index:-1;
+}
+.club {
+/* background-color: brown; */
+width: 78%;
+height:auto;
+display:flex;
+align-items:center;
+margin-left:12%;
+color:white;
+margin-bottom:12%;
+}
+
 @media screen and (max-width: 768px){
   .straight-line
 {
@@ -409,6 +427,8 @@ footer .container {
   margin-top:15%;
 }
 }
+
+
 
       </style>
    </head>
@@ -505,6 +525,18 @@ footer .container {
         </div>
       </section>
 
+      <section id="clubs">
+        <div class="club">
+        <div class="heading">
+			<h1>associated clubs</h1>
+			<div class="straight-line"></div>          
+        </div>
+        <div class="club-images">
+          
+        </div>
+        
+      </section>
+
       <section id="contacts">
         <div class="contact">
         <div class="heading">
@@ -515,9 +547,7 @@ footer .container {
         <div class="contact-p">
         <p>If you'd like to chat about a project or just have a question, Please fill in the form below <br>  I will get back to you within 2 days</p>
         </div>
-        
-
-        
+              
         <form action="https://formsubmit.co/el/ducebi" method="POST">
         <div class="container">
       <div class="row100">
