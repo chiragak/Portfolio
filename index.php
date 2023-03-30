@@ -462,6 +462,11 @@ form
   margin-top:65%;
   /* position:absolute; */
 }
+.about-desc 
+{
+
+  margin-top:30%;
+}
 }
 
 
@@ -498,7 +503,7 @@ form
                   <p class="tech-used">RFID</p>
                   <p class="tech-used">Sensors</p>
                   <p class="tech-used">LCD screen</p>
-                  <div class="project-image"><img src="images\\License.png" alt="Waver "></div>
+                  <div class="project-image"><img src="images\\License.png" alt="License Verifier "></div>
                </div>
             </div>
 			<div class="flex-item">
@@ -510,46 +515,48 @@ form
                   <p class="tech-used">CSS</p>
                   <p class="tech-used">Javascript</p>
                   <p class="tech-used">Mongo DB</p>
-                  <div class="project-image"><img src="images\\Aasha.png" alt="Waver "></div>
+                  <div class="project-image"><img src="images\\Aasha.png" alt="Aasha "></div>
                </div>
          </div>
 		 <div class="flex-item">
                <div class="inner-outline">
                   <h1>Waver</h1>
-                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="description">Attendance tracking system using RFID</p>
+                  <p class="tech-used">Python</p>
+                  <p class="tech-used">Raspberrypi</p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
-                  <p class="tech-used">Javascript</p>
-                  <p class="tech-used">Javascript</p>
+                  <p class="tech-used">Bootstrap</p>
+                  <p class="tech-used">MySQL</p>
                   <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
                </div>
          </div>
 		 <div class="flex-item">
                <div class="inner-outline">
                   <h1>E-learning Platform</h1>
-                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="description">Attendance tracking system using RFID </p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
+                  <p class="tech-used">Bootstrap</p>
                   <p class="tech-used">Javascript</p>
-                  <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\\e-learning.png" alt="Waver "></div>
+                  <p class="tech-used">MySQL</p>
+                  <div class="project-image"><img src="images\\e-learning.png" alt="E-learning Platform"></div>
                </div>
          </div>
 		 <div class="flex-item">
                <div class="inner-outline">
                   <h1>Taal</h1>
-                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <p class="description">IOT based device to learn music instruments</p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
                   <p class="tech-used">Javascript</p>
                   <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\Taal.png" alt="Waver "></div>
+                  <div class="project-image"><img src="images\Taal.png" alt="Taal"></div>
                </div>
       </section>
 
       <section id="about-me">
         <div class="about">
-          \]
         <div class="heading">
 			<h1>about-me</h1>
 			<div class="straight-line"></div>          
