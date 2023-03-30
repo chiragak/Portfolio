@@ -479,7 +479,7 @@ form
          include('includes\page-design.php')	;	
          ?>
 
-
+<!-- page design starts -->
 <header class="codrops-header">
 				<a href="https://github.com/chiragak" class="github-corner">
 					<svg width="80" height="80" viewBox="0 0 250 250" class="github-icon">
@@ -501,19 +501,21 @@ form
 				<div class="right-line"></div>
 			</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- page design ends -->
+
+<!-- navbar starts -->
+<div class="navbar">
+				<h1 class="logo-title">Chirag..</h1>
+				<div class="menu">
+					<h1><a href="#home" class="nav-link">home</a></h1>
+					<h1><a href="#works"class="nav-link">works</a></h1>
+					<h1><a href="#about-me"class="nav-link">about-me</a></h1>
+					<h1><a href="#contacts" class="nav-link">contacts</a></h1>
+				</div>
+</div>
+
+
+<!-- navbar ends -->
       <section id="home">
         <div class="intro">
          <div class="introduction">
