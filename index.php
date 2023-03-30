@@ -96,7 +96,7 @@ margin-bottom:0%;
 }
 .project-image
 {
-background-color:red;
+/* background-color:red; */
 height:160px;
 width:240px;
 border-radius:5%;
@@ -410,6 +410,30 @@ margin-left:12%;
 color:white;
 margin-bottom:12%;
 }
+.club-images
+{
+  width:100%;
+  position:relative;
+  height:auto;
+}
+.club-images img {
+  margin: 20% 8% 0%;
+  
+}
+
+img {
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 768px){
   .straight-line
@@ -425,6 +449,18 @@ margin-bottom:12%;
 .introduction 
 {
   margin-top:15%;
+}
+.contact-p 
+{
+  /* background-color:yellow; */
+  margin-top:20%;
+  margin-bottom:10%;
+ 
+}
+form
+{
+  margin-top:65%;
+  /* position:absolute; */
 }
 }
 
@@ -456,24 +492,25 @@ margin-bottom:12%;
          <div class="flex-container wrap">
             <div class="flex-item">
                <div class="inner-outline">
-                  <h1>Waver</h1>
-                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
-                  <p class="tech-used">HTML</p>
-                  <p class="tech-used">CSS</p>
-                  <p class="tech-used">Javascript</p>
-                  <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+                  <h1>License Verifier</h1>
+                  <p class="description">License verification device integrated in automobiles</p>
+                  <p class="tech-used">Arduino</p>
+                  <p class="tech-used">RFID</p>
+                  <p class="tech-used">Sensors</p>
+                  <p class="tech-used">LCD screen</p>
+                  <div class="project-image"><img src="images\\License.png" alt="Waver "></div>
                </div>
             </div>
 			<div class="flex-item">
                <div class="inner-outline">
-                  <h1>Waver</h1>
-                  <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
+                  <h1>Aasha</h1>
+                  <p class="description">Early detction of breast cancer using Artificial Intelligence</p>
+                  <p class="tech-used">Machine Learning</p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
                   <p class="tech-used">Javascript</p>
-                  <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+                  <p class="tech-used">Mongo DB</p>
+                  <div class="project-image"><img src="images\\Aasha.png" alt="Waver "></div>
                </div>
          </div>
 		 <div class="flex-item">
@@ -489,29 +526,30 @@ margin-bottom:12%;
          </div>
 		 <div class="flex-item">
                <div class="inner-outline">
-                  <h1>Waver</h1>
+                  <h1>E-learning Platform</h1>
                   <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
                   <p class="tech-used">Javascript</p>
                   <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+                  <div class="project-image"><img src="images\\e-learning.png" alt="Waver "></div>
                </div>
          </div>
 		 <div class="flex-item">
                <div class="inner-outline">
-                  <h1>Waver</h1>
+                  <h1>Taal</h1>
                   <p class="description">Attendance tracking system using RFID vgv gvgn htgnfg vhgdfg</p>
                   <p class="tech-used">HTML</p>
                   <p class="tech-used">CSS</p>
                   <p class="tech-used">Javascript</p>
                   <p class="tech-used">Javascript</p>
-                  <div class="project-image"><img src="images\waver.png" alt="Waver "></div>
+                  <div class="project-image"><img src="images\Taal.png" alt="Waver "></div>
                </div>
       </section>
 
       <section id="about-me">
         <div class="about">
+          \]
         <div class="heading">
 			<h1>about-me</h1>
 			<div class="straight-line"></div>          
@@ -532,7 +570,9 @@ margin-bottom:12%;
 			<div class="straight-line"></div>          
         </div>
         <div class="club-images">
-          
+          <img src="images/coe-logo.png" alt="Coe Cybersecurity" width="150px">
+          <img src="images/nscc-logo.png" alt="NSCC" width="150px">
+          <img src="images/sosc-logo.svg" alt="SOSC" width="150px">
         </div>
         
       </section>
