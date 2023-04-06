@@ -34,3 +34,31 @@ form
 }
 
 
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	.menu {
+	  display: none;
+	}
+	.github-icon {
+		display:none;
+	
+	}
+  
+  
+
+
+  .introduction
+{
+
+	margin-left :20%;
+	margin-top: 40%;
+	
+	
+}
+
+}
