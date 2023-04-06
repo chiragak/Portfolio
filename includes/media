@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 768px){
+  .straight-line
+{
+ 
+   width:225px;
+   height:2px;
+   margin-left:1%;
+
+   
+   
+}
+.introduction 
+{
+  margin-top:15%;
+}
+.contact-p 
+{
+  /* background-color:yellow; */
+  margin-top:20%;
+  margin-bottom:10%;
+ 
+}
+form
+{
+  margin-top:65%;
+  /* position:absolute; */
+}
+.about-desc 
+{
+
+  margin-top:30%;
+}
+}
+
+
