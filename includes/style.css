@@ -627,5 +627,62 @@ img:hover {
   
 
 
+  @media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
 
+    .menu {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .navbar .menu h1 {
+        margin: 2% 0;
+    }
+
+    .introduction {
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+
+    .projects {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-item {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .about {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .contact {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .club {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .club-images img {
+        margin: 10% 0;
+    }
+}
 
