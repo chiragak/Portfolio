@@ -151,7 +151,7 @@ img:hover {
   display: flex;
   position:relative;
   margin-left:11%;
-  margin-top: 10%;
+  margin-top: 25%;
   margin-right: 10%;
 }
 
@@ -594,9 +594,6 @@ overflow: hidden;
 
 @media screen and (max-width: 768px) {
 
-  .codrops-header {
-    display: none;
-  }
   .nav-links {
     display: none;
   }
