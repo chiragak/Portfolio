@@ -42,9 +42,10 @@ body{
   display: flex;
   flex-direction: column;
   top: 0;
-  margin-left: 17px;
+  left: 0;
   min-height: 350px;
   z-index:2;
+
 }
 
 .left-line {
@@ -53,7 +54,8 @@ body{
   width: 2px;
   height: 200px;
   background-color: #ABB2BF;
-  margin-bottom: 5px;
+  margin-bottom: 5px;   overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
+  overflow-y: hidden; /* Add this line to hide vertical scrollbar */
 }
 
 .left-sidebar a {
@@ -293,16 +295,16 @@ overflow: hidden;
   margin-bottom:12%;
   }
 
-
-
   #clubs{
     /* background-color:green; */
     height:auto;
     margin-top:0px;
     position:relative;
     z-index:-1;
-    }
-    .club {
+    overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
+    overflow-y: hidden; /* Add this line to hide vertical scrollbar */
+  }
+  .club {
     /* background-color: brown; */
     width: 78%;
     height:auto;
@@ -312,35 +314,35 @@ overflow: hidden;
     margin-left:12%;
     color:white;
     margin-bottom:12%;
+  }
+  .club-images {
+    width: 100%;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation: moveImages 10s linear infinite;
+ 
+  }
+  
+  .club-images img {
+    margin: 20% 8% 0%;
+    border-radius: 50%;
+    animation: moveImage 10s linear infinite;
+  }
+  
+  @keyframes moveImages {
+    0% {
+      transform: translateX(0%);
     }
-    .club-images {
-      width: 100%;
-      position: relative;
-      height: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      animation: moveImages 10s linear infinite;
+    50% {
+      transform: translateX(-50%);
     }
-    
-    .club-images img {
-      margin: 20% 8% 0%;
-      border-radius: 50%;
-      animation: moveImage 10s linear infinite;
+    100% {
+      transform: translateX(-100%);
     }
-    
-    @keyframes moveImages {
-      0% {
-        transform: translateX(0%);
-      }
-      50% {
-        transform: translateX(-50%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-    
+  }
 
 
     #contacts{
