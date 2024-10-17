@@ -53,6 +53,7 @@
     ]
   },
   "devDependencies": {
-    "craco": "^0.0.3"
+    "craco": "^0.0.3",
+    "gh-pages": "^6.2.0"
   }
 }
