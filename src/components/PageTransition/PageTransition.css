@@ -1,0 +1,79 @@
+.page-transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.transition-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.transition-line {
+  position: absolute;
+  width: 100%;
+  height: 33.33%;
+  background-color: #000000;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.transition-line:nth-child(1) {
+  top: 0;
+  animation: revealLine 0.5s ease forwards, hideLine 0.5s ease forwards 1s;
+}
+
+.transition-line:nth-child(2) {
+  top: 33.33%;
+  animation: revealLine 0.5s ease forwards 0.2s, hideLine 0.5s ease forwards 1.2s;
+}
+
+.transition-line:nth-child(3) {
+  top: 66.66%;
+  animation: revealLine 0.5s ease forwards 0.4s, hideLine 0.5s ease forwards 1.4s;
+}
+
+.transition-text {
+  font-family: 'Bigshot One', cursive;
+  font-size: 4rem;
+  color: #ffffff;
+  z-index: 10000;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards 0.7s, fadeOut 0.5s ease forwards 1.5s;
+}
+
+@keyframes revealLine {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes hideLines {
+  to {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
